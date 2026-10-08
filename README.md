@@ -36,6 +36,14 @@ Always download the latest version from our [Official Releases Page](https://git
    - **Accessibility:** *System Settings > Privacy & Security > Accessibility* ➔ Enable **Duodesk Server** (allows stylus, touch, and mouse input events).
 5. The Duodesk Server icon will appear in your Menu Bar ready to pair!
 
+> [!TIP]
+> **If macOS shows *"“Duodesk Server” is damaged and can’t be opened"***:  
+> Because Duodesk is an open-source project and not yet notarized with a paid Apple Developer ID, macOS Gatekeeper quarantines newly downloaded apps. Run this one-line command in your Mac Terminal:
+> ```bash
+> xattr -cr /Applications/"Duodesk Server.app"
+> ```
+> Then open **Duodesk Server** again and it will launch smoothly!
+
 ---
 
 ### 🪟 For Windows Users
